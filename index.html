@@ -14,7 +14,12 @@
             <h1 class="text-3xl">bounce.css documentation</h1>
             <h2 class="text-2xl">Welcome! This is the official documentation of bounce.css </h2>
             <hr class="mt-2 mb-2 blue">
-            <p class="text-2xl"> Let's get started!<br>There are 5 primary classes in bounce.css listed below</p>
+            <p class="text-2xl"> Let's get started! <br> Paste this code inside the head tag of your html file and you are good to go.</p>
+            <div>
+                <input type="text" id="copyThis" value='<link href="https://bouncecss.bookie0.repl.co/bounce.css" rel="stylesheet" type="text/css" />' readonly id="head-code">
+                <button class="cyan" onclick="copy();" id="copyButton">Copy</button>
+            </div>
+            <p class="text-xl">There are 5 primary tags in bounce.css</p>
             <div id="btnContainor" class="flex flex-col justify-center items-center sm:flex-row sm:justify-evenly items-center">
                 <div><button class="pink">Pink</button></div>
                 <div><button class="blue">Blue</button></div>
@@ -65,6 +70,56 @@
                 </div>
             </div>
             <div class="flex justify-center items-center pt-2">
+                <div class="text-center">
+                    <div class="flex flex-row">
+                        <label class="checkbox-container cyan">
+                            <input type="checkbox">
+                            <checkmark></checkmark>
+                            <p>Cyan Checkbox</p>
+                        </label>
+                    </div>
+                    <div class="flex flex-row">
+                        <label class="checkbox-container pink">
+                            <input type="checkbox">
+                            <checkmark></checkmark>
+                            <p>Pink Checkbox</p>
+                        </label>
+                    </div>
+                    <div class="flex flex-row">
+                        <label class="checkbox-container yellow">
+                            <input type="checkbox">
+                            <checkmark></checkmark>
+                            <p>Yellow Checkbox</p>
+                        </label>
+                    </div>
+                    <div class="flex flex-row">
+                        <label class="radio-container yellow">
+                            <input type="radio" name="radio">
+                            <checkmark></checkmark>
+                            <p>Yellow Radio</p>
+                        </label>
+                    </div>
+                
+                    <div class="flex flex-row">
+                        <label class="radio-container cyan">
+                            <input type="radio" name="radio">
+                            <checkmark></checkmark>
+                            <p>Cyan Radio</p>
+                        </label>
+                    </div>
+                
+                    <div class="flex flex-row">
+                        <label class="radio-container pink">
+                            <input type="radio" name="radio">
+                            <checkmark></checkmark>
+                            <p>Pink Radio</p>
+                        </label>
+                    </div>
+                    <div class="pt-2"><mark class="purple output">Mark tag with purple class</mark></div>
+                    <hr class="m-0">
+                </div>
+            </div>
+            <div class="flex justify-center items-center pt-2">
                 <div class="text-center bg-cyan px-2 py-2 border-2 border-cyan-light sm:flex sm:flex-row">
                     <div><p class="text-l">Questions? Feedback? Bugs?</p></div>
                     <div class="sm:ml-2"><a href="https://bookie0.repl.co/" class="cyan contactLink">Hit me up!</a></div>
@@ -82,6 +137,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
     <!--@Anuragd275 -->
 </body>
 </html>
